@@ -144,8 +144,8 @@ def main():
     d_or_p = string_checker("Is this order for delivery or pick up? ", deliv_option)
 
     if d_or_p == "delivery":
-        cost_delivery = 6
-        print("There is a $6 surcharge for delivery")
+        cost_delivery = 5.99
+        print("There is a $5.99 surcharge for delivery")
         name = username_checker("Enter your name: ")
         phone_num = phone_num_checker("Enter your phone number: ", 100000000, 9999999999)
         post_code = post_code_num_checker("Enter post code: ")
